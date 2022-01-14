@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/images/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Hello, I'm Tín</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header container">
+        <img src="./assets/images/logo.svg" class="header--logo" />
+        <ul class="header--menu">
+          <li class="header--menu--item"><a href="#about">About</a></li>
+          <li class="header--menu--item"><a href="#project">Projects</a></li>
+          <li class="header--menu--item"><a href="#contact">Contact</a></li>
+          <a href="#modal" id="resume--btn" class="btn btn-primary">Resume</a>
+        </ul>
+      </header>
+      <section class="container hero">
+        <div class="hero--content">
+          <p class="hero--title">Bui Trong Tin</p>
+          <p class="hero--desc text-desc">
+            Front-end Developer. Love programming beautiful, user-friendy
+            websites. Willing to learn new things. Looking for intern job.
+          </p>
+          <div class="hero--action">
+            <a href="#project" class="btn btn-primary">My projects</a>
+            <a href="#contact" class="btn btn-outline">Contact me</a>
+          </div>
+        </div>
+        <div class="hero--image">
+          <img src="./assets/images/hero.jpg" alt="" srcset="" />
+        </div>
+      </section>
+      <!-- The MODAL -->
+      <div id="modal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <a href="#" class="close-btn">&times;</a>
+          <div>
+            <p>Here is my CV, or you can view it on</p>
+            <a
+              href="https://drive.google.com/file/d/1ECFWjynkV__r2dSJfYR2cKhmobm7C4A2/view?usp=sharing"
+              target="_blank"
+            >
+              <img
+                class="modal--drive"
+                src="./assets/images/google-drive.png"
+                alt="google-drive"
+              />
+            </a>
+          </div>
+
+          <embed
+            src="./assets/CV_FrontEnd_Intern_BuiTrongTin.pdf"
+            frameborder="0"
+            width="100%"
+            height="100%"
+          />
+        </div>
+        <a href="#" class="close-overlay"></a>
+      </div>
+      <!-- End MODAL -->
+      <section id="about" class="about">
+        <div class="block">
+          <h4 class="block--name">About</h4>
+          <h2 class="block--title">Who am I</h2>
+        </div>
+        <div class="about--desc text-desc">
+          Hi, I'm Tin. Nice to meet you. I'm a software engineering student,
+          study at Thu Dau Mot University, I would like to be a front-end web
+          developer. I am passionate about learning new technologies to increase
+          the quality of my work. Now I'm looking for a part-time intern job, I
+          can work fulltime from April 2022. Hope i can contribute to the
+          development of the company.
+        </div>
+        <div class="container about--cards">
+          <div class="about--card">
+            <img
+              src="./assets/images/about1.png"
+              alt="about1"
+              class="about--image"
+            />
+            <h3 class="about--card--title">Academic Background</h3>
+            <p class="about--card--desc text-desc">
+              Bachelor of Software Engineering, Thu Dau Mot University. 08/2019
+              - Present. <br />Expected Graduation - 12/2023
+            </p>
+            <div class="about--card--detail">
+              <h4 class="about--card--subtitle">What I've learned:</h4>
+              <ul class="about--card--features text-desc">
+                <li class="about--card--feature">
+                  Languages: Javascript, C#, Java, C++,...
+                </li>
+                <li class="about--card--feature">
+                  Build software with various platforms: web, android, window,
+                  ...
+                </li>
+                <li class="about--card--feature">
+                  Software Architecture: basic knowledge about architecture of
+                  software (mostly at web platform).
+                </li>
+                <li class="about--card--feature">
+                  System analysis and design: basic knowledge about analysis and
+                  design system, work with UML,...
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="about--card">
+            <img
+              src="./assets/images/about2.png"
+              alt="about1"
+              class="about--image"
+            />
+            <h3 class="about--card--title">My Skills</h3>
+            <p class="about--card--desc text-desc">
+              I want to become a front-end developer, so that my skills stack
+              will focus on that role.
+            </p>
+            <div class="about--card--detail">
+              <h4 class="about--card--subtitle">I focus on:</h4>
+              <ul class="about--card--features text-desc">
+                <li class="about--card--feature">
+                  HTML, CSS, Javascript: basic knowledge to build UI.
+                </li>
+                <li class="about--card--feature">
+                  Javscript, ReactJS: beginner with React, understand how to
+                  work with component, hooks, asynchronous,..
+                </li>
+                <li class="about--card--feature">Git, Github</li>
+                <li class="about--card--feature">
+                  MongoDB, MySQL, SQL Server: simple knowledge about these
+                  database.
+                </li>
+                <li class="about--card--feature">
+                  Another skills: research, communication, self-taught, team
+                  work,...
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="about--card">
+            <img
+              src="./assets/images/about3.png"
+              alt="about1"
+              class="about--image"
+            />
+            <h3 class="about--card--title">My Experience</h3>
+            <p class="about--card--desc text-desc">
+              As a student, my experience is mostly personal projects from
+              university's subjects.
+            </p>
+            <div class="about--card--detail">
+              <h4 class="about--card--subtitle">
+                What I've done with programming subjects: there are listed in
+                next section.
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="project" class="my-projects container">
+        <div class="block">
+          <h4 class="block--name">Projects</h4>
+          <h2 class="block--title">Some Projects I've Made</h2>
+        </div>
+        <div class="projects">
+          <div class="project">
+            <div class="badges">
+              <div class="badge">ReactJS</div>
+              <div class="badge">ExpressJS</div>
+              <div class="badge">MongoDB</div>
+              <div class="badge">JWT</div>
+            </div>
+            <img
+              class="project--image"
+              src="./assets/images/Project_1.png"
+              alt=""
+            />
+            <div class="overlay project--info">
+              <h3 class="project--desc">
+                Web application for people to manages their learning progress.
+              </h3>
+              <div>
+                <a
+                  href="http://btrongtin-learnit.netlify.app/"
+                  class="btn btn-primary-sm btn-sm"
+                  target="_blank"
+                  >Live demo</a
+                >
+                <a
+                  href="https://github.com/btrongtin/LearnIt"
+                  class="btn btn-trans-sm btn-sm"
+                  target="_blank"
+                  >Github</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="badges">
+              <div class="badge">ASP.NET MVC</div>
+              <div class="badge">SQL Server</div>
+            </div>
+            <img
+              class="project--image"
+              src="./assets/images/Project_2.png"
+              alt=""
+            />
+            <div class="overlay project--info">
+              <h3 class="project--desc">
+                E-commerce website using ASP.NET MVC and Entity Framework.
+              </h3>
+              <div>
+                <a
+                  href="http://caycanhgreenlife.somee.com"
+                  target="_blank"
+                  class="btn btn-primary-sm btn-sm"
+                  >Live demo</a
+                >
+                <a
+                  href="https://github.com/btrongtin/CayCanhGreenLife"
+                  target="_blank"
+                  class="btn btn-trans-sm btn-sm"
+                  >Github</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="badges">
+              <div class="badge">Java android</div>
+              <div class="badge">ASP.NET MVC</div>
+              <div class="badge">MySQL</div>
+            </div>
+            <img
+              class="project--image"
+              src="./assets/images/Project_3.png"
+              alt=""
+            />
+            <div class="overlay project--info">
+              <h3 class="project--desc">
+                E-commerce android app and website for managing.
+              </h3>
+              <div>
+                <a
+                  href="https://github.com/btrongtin/AdminLaptopHooli"
+                  target="_blank"
+                  class="btn btn-trans-sm btn-sm"
+                  >Github Web</a
+                >
+                <a
+                  href="https://github.com/btrongtin/AndroidHooliLaptopStore"
+                  target="_blank"
+                  class="btn btn-trans-sm btn-sm"
+                  >Github Android</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="badges">
+              <div class="badge">Figma</div>
+            </div>
+            <img
+              class="project--image"
+              src="./assets/images/Project_4.png"
+              alt=""
+            />
+            <div class="overlay project--info">
+              <h3 class="project--desc">
+                Figma prototype for Fashion Assistant mobile app.
+              </h3>
+              <div>
+                <a
+                  href="https://www.figma.com/file/P54lHr8l78T7DeCvuOaNeb/FashionAssistant?node-id=0%3A1"
+                  target="_blank"
+                  class="btn btn-primary-sm btn-sm"
+                  >Live demo</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="badges">
+              <div class="badge">HTML</div>
+              <div class="badge">CSS</div>
+            </div>
+            <img
+              class="project--image"
+              src="./assets/images/Project_5.png"
+              alt=""
+            />
+            <div class="overlay project--info">
+              <h3 class="project--desc">
+                Cool landingpage for practice with html and css.
+              </h3>
+              <div>
+                <a
+                  href="https://btrongtin.github.io/zulu-landing/"
+                  target="_blank"
+                  class="btn btn-primary-sm btn-sm"
+                  >Live demo</a
+                >
+                <a
+                  href="https://github.com/btrongtin/zulu-landing"
+                  target="_blank"
+                  class="btn btn-trans-sm btn-sm"
+                  >Github</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="badges">
+              <div class="badge">HTML</div>
+              <div class="badge">CSS</div>
+            </div>
+            <img
+              class="project--image"
+              src="./assets/images/Project_6.png"
+              alt=""
+            />
+            <div class="overlay project--info">
+              <h3 class="project--desc">
+                Cool landingpage for practice with html and css.
+              </h3>
+              <div>
+                <a
+                  href="https://btrongtin.github.io/playground-landingpage/"
+                  target="_blank"
+                  class="btn btn-primary-sm btn-sm"
+                  >Live demo</a
+                >
+                <a
+                  href="https://github.com/btrongtin/playground-landingpage"
+                  target="_blank"
+                  class="btn btn-trans-sm btn-sm"
+                  >Github</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="block">
+          <h4 class="block--name">Contact me</h4>
+          <h2 class="block--title">Connecting To Make Wonderful Things</h2>
+        </div>
+        <div class="contact--content">
+          <div class="contact--links">
+            <ul class="contacts">
+              <li class="contact--item">
+                <i class="bx bxl-github"></i>
+                <span class="contact--info">github.com/btrongtin</span>
+              </li>
+              <li class="contact--item">
+                <i class="bx bxl-gmail"></i>
+                <span class="contact--info">btrongtin891@gmail.com</span>
+              </li>
+              <li class="contact--item">
+                <i class="bx bxl-linkedin-square"></i>
+                <span class="contact--info"
+                  >linkedin.com/in/tín-bùi-trọng-043658229</span
+                >
+              </li>
+              <li class="contact--item">
+                <i class="bx bxs-phone-call"></i>
+                <span class="contact--info">082 858 2484</span>
+              </li>
+            </ul>
+          </div>
+          <form class="form">
+            <div class="form--control">
+              <label for="fname">Your name</label><br />
+              <input type="text" name="fname" /><br />
+              <span></span>
+            </div>
+            <div class="form--control">
+              <label for="fname">Your email</label><br />
+              <input type="text" name="fname" /><br />
+              <span></span>
+            </div>
+            <div class="form--control">
+              <label for="fname">Message</label><br />
+              <input type="text" name="fname" /><br />
+              <span></span>
+            </div>
+            <a href="#" class="btn btn-primary">Send</a>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <img src="./assets/images/logo.svg" class="footer--logo" />
+        <p class="footer--quote">
+          Living, learning & leveling up one day at a time.
+        </p>
+        <p class="footer--rights">Handcrafted by Bui Trong Tin</p>
+      </footer>
+    </div>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
